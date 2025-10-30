@@ -1,0 +1,46 @@
+:root {
+  font-size: 20px;
+}
+
+.slidev-layout {
+  h1 + p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    opacity: 1;
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  tr {
+    border-color: rgb(115, 115, 115);
+  }
+
+  li {
+    line-height: 2;
+  }
+
+  &.fact > div > p {
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1;
+  }
+
+  img {
+    display: inline;
+  }
+
+}
+
+.fade-out-enter-active,
+.fade-out-leave-active {
+  transition: opacity 0.25s ease;
+}
+
+.fade-out-enter-from,
+.fade-out-leave-to {
+  opacity: 0;
+}
