@@ -109,6 +109,10 @@ h1 {
 
 ---
 
+なるほどーーー
+
+---
+
 参考にして作る
 
 ---
@@ -127,9 +131,9 @@ layout: default
     <VBtn>メニューを開く</VBtn>
   </VMenuTrigger>
   <VMenuContent>
-    <VMenuItem>項目1</VMenuItem>
-    <VMenuItem>項目2</VMenuItem>
-    <VMenuItem>項目3</VMenuItem>
+    <VMenuItem @click="onItemClick('項目1')">項目1</VMenuItem>
+    <VMenuItem @click="onItemClick('項目2')">項目2</VMenuItem>
+    <VMenuItem @click="onItemClick('項目3')">項目3</VMenuItem>
   </VMenuContent>
 </VMenu>
 ```
@@ -170,8 +174,11 @@ layout: center
 
 ---
 
-
 機能開発で使用
+
+---
+
+いろんなところで<br>使用
 
 ---
 
@@ -203,6 +210,14 @@ layout: center
 
 ---
 
+汎用性が高い
+
+---
+
+= 自由度が<span v-mark.highlight.yellow>高い</span>
+
+---
+
 → 責任が<span v-mark.highlight.yellow>使用側</span>に行き過ぎる
 
 ---
@@ -212,6 +227,16 @@ layout: center
 ---
 
 SaaS内製<br>UIライブラリの<br>(本来の)特徴
+
+---
+
+<span v-mark.highlight.yellow>デザインシステム</span>
+
+---
+layout: center
+---
+
+なかったらごめんなさい
 
 ---
 
@@ -228,6 +253,14 @@ SaaS内製<br>UIライブラリの<br>(本来の)特徴
 ---
 
 → 使用側で<br><span v-mark.highlight.yellow>それしかできない</span><br>ように設計する
+
+---
+
+ポイント
+
+---
+
+2つ
 
 ---
 
