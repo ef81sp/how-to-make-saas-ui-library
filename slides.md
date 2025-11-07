@@ -15,7 +15,7 @@ transition: fade-out
 # enable MDC Syntax: https://sli.dev/features/mdc
 mdc: true
 # duration of the presentation
-duration: 35min
+duration: 5min
 # HTML attributes
 htmlAttrs:
   dir: ltr
