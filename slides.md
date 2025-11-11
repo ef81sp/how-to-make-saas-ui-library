@@ -44,7 +44,7 @@ seoMeta:
 
 <div class="h-20" />
 
-# SaaS内製UIライブラリ設計のコツ1選
+# <span v-mark.highlight.yellow>SaaS内製</span>UIライブラリ設計のコツ1選
 
 <div class="h-12" />
 
@@ -89,7 +89,7 @@ h1 {
 
 ---
 
-おすすめしません
+おすすめしません<br><small class="text-base">(わたしは)</small>
 
 ---
 
@@ -119,7 +119,7 @@ h1 {
 layout: default
 ---
 
-# 想定されるパターン
+# 想定されるパターン (VMenu編)
 
 「VmenuとVmenuTriggerとVmenuContentとVMenuItemを組み合わせてメニューを作ってください」
 
@@ -144,7 +144,7 @@ layout: default
 layout: default
 ---
 
-# 想定されるパターンその2
+# 想定されるパターンその2 (VDialog編)
 
 「ガワだけ提供するから、ヘッダーもボディもフッターも好きに作ってね」
 
@@ -222,7 +222,7 @@ layout: center
 
 ---
 
-機能開発で<br>こんなこと<br>気にしている<br>場合じゃない
+機能開発で<br>こんなこと<br>気にしている<br>場合じゃない<small class="text-sm">(と思う)</small>
 
 ---
 
@@ -274,7 +274,7 @@ layout: center
 layout: default
 ---
 
-# 想定されるパターン
+# 想定されるパターン (VMenu編)
 
 <div class="[&_pre]:text-4! [&_pre]:lh-5!">
 
@@ -310,7 +310,7 @@ layout: default
 layout: default
 ---
 
-# 想定されるパターンその2
+# 想定されるパターンその2 (VDialog編)
 
 <div class="[&_pre]:text-4! [&_pre]:lh-5!">
 
@@ -382,7 +382,8 @@ layout: two-cols-header
 - 好きなヘルパー
   -  `useTemplateRef`
   -  `useId`
-- 弁護士ドットコム / クラウドサイン
+- <small>個人スポンサーでした</small>
+- <small>弁護士ドットコム / クラウドサイン</small>
 
 ::right::
 
